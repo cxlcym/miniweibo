@@ -1,1 +1,1 @@
-web: python minitwit.py
+web: gunicorn minitwit:app
